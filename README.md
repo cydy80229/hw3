@@ -7,7 +7,7 @@
 #include <unistd.h>
 #include <string.h>
 ## The above are headers.
-## Most of this assignment referenced the hw2 sample from provided by TA Jan Foksinski
+## The basis of the hw2 sample is provided by TA Jan Foksinski
 ## Most parts are from hw2 standard solution, and I add e and E on the homework.
 typedef struct
 {
