@@ -1,4 +1,4 @@
-# hw3
+## hw3
 #include<stdio.h>
 #include <stdlib.h>
 #include <dirent.h>
