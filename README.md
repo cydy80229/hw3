@@ -49,7 +49,7 @@ void myPrinterFunction(char *filePath, char *dirfile, FlagArgs flagArgs, int nes
     {
         if (flagArgs.fileSize > (int)buf.st_size) 
 ##  if the file size is less than the expected(from hw2)
-        {
+{
             strcpy(line, ""); // clear the line print
         }
     }
@@ -102,6 +102,7 @@ void myPrinterFunction(char *filePath, char *dirfile, FlagArgs flagArgs, int nes
     }
 }
 
+##
 void readFileHierarchy(char *dirname, int nestingCount, FileHandler *fileHandlerFunction, FlagArgs flagArgs)
 {
     struct dirent *dirent;
